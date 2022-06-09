@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.heder{
+    background-color: black;
+}
+.heder  h1{
+    color: wheat;
+    padding: 10px;
+}
+span{
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.small-container{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-top: 5px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.single-product{
+    margin-top: 80px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-around;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    margin: 10px;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single-product .col-2 img{
+   padding: 0;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+
+.cart_button button{
+width: auto;
+height: auto;
+border-radius: 5px;
+padding: 3px;
+background-color: orchid;
+margin-top: 10px;
+}
+select option{
+width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+}
+.specifaction {
+display: flex;
+margin: 10px;
+
+}
+.specifaction  .gbselector button{
+   padding: 8px;
+}
+
+.specifaction .gbselector  {
+    margin-right: 20px;
+}
+
+.specifaction .ramselector button {
+    padding: 8px;
+}
+.cart_button button{
+    padding: 8px;
+    margin-right: 20px;
+}
+.cart_button button {
+ 
+    margin-right: 20px;
+}
+.col-2{
+border: 4px solid mintcream;
+border-radius: 5px;
+}
+
+
